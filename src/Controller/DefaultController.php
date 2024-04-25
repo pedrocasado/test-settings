@@ -7,7 +7,8 @@ use Jbtronics\SettingsBundle\Manager\SettingsManagerInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
-class DefaultController extends \Symfony\Bundle\FrameworkBundle\Controller\AbstractController {
+class DefaultController extends \Symfony\Bundle\FrameworkBundle\Controller\AbstractController
+{
     #[Route(path: '/', name: 'homepage')]
     public function homepage(
         SettingsManagerInterface $settingsManager,
@@ -21,5 +22,12 @@ class DefaultController extends \Symfony\Bundle\FrameworkBundle\Controller\Abstr
         $settingsManager->save($settings);
 
         exit;
+    }
+
+    #[Route(path: '/inject', name: 'inject')]
+    public function inject(
+        AppSettings $appSettings,
+    ): Response {
+        dd($appSettings);
     }
 }
