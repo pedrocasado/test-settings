@@ -1,0 +1,3 @@
+
+    $ composer i
+    $ symfony serve
