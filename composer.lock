@@ -1299,18 +1299,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jbtronics/settings-bundle.git",
-                "reference": "cce984456946c2be3b97b117c3ced37717166979"
+                "reference": "8d77dcc8e22ba53d7ef2858126fccb5b9bf333dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jbtronics/settings-bundle/zipball/cce984456946c2be3b97b117c3ced37717166979",
-                "reference": "cce984456946c2be3b97b117c3ced37717166979",
+                "url": "https://api.github.com/repos/jbtronics/settings-bundle/zipball/8d77dcc8e22ba53d7ef2858126fccb5b9bf333dd",
+                "reference": "8d77dcc8e22ba53d7ef2858126fccb5b9bf333dd",
                 "shasum": ""
             },
             "require": {
                 "ergebnis/classy": "^1.6",
                 "ext-json": "*",
                 "php": "^8.1",
+                "symfony/deprecation-contracts": "^3.4",
                 "symfony/form": "^6.4|^7.0",
                 "symfony/framework-bundle": "^6.4|^7.0",
                 "symfony/translation": "^7.0|^6.4",
@@ -1364,7 +1365,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jbtronics/settings-bundle/issues",
-                "source": "https://github.com/jbtronics/settings-bundle/tree/master"
+                "source": "https://github.com/jbtronics/settings-bundle/tree/2.0.0"
             },
             "funding": [
                 {
@@ -1376,7 +1377,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-23T20:33:28+00:00"
+            "time": "2024-04-27T21:43:39+00:00"
         },
         {
             "name": "psr/cache",
